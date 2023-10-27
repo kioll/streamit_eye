@@ -22,11 +22,7 @@ def traiter_image_et_predire(image, modele):
 
 # Interface principale
 def interface_principale():
-    st.header("Identification de Maladies Rétiniennes")
 
-    st.markdown("""
-    **Instructions**: Téléchargez une image de rétine (format .jpg, .png) et le modèle prédira la probabilité de différentes maladies.
-    """)
 
     fichier = st.file_uploader("Télécharger une image de rétine", type=["jpg", "png"])
 
